@@ -10,10 +10,13 @@
 <body>
     <!--Heading-->
     <h1>Pemograman WEB 1</h1>   
-     <!--Paragraph-->
+    <!--Paragraph-->
     <p>Daftar Materi Pemograman Web 1, Program Studi Teknik Informatika:
         <ol type="1">
-            <li>HTML Dasar</li>
+            <li>
+                <!--Hyperlink With Target New Open TAB-->
+                <a href="html_dasar/" target="_blank">HTML Dasar</a>
+            </li>
             <li>Pembuatan FORM</li>
             <li>PHP Dasar</li>
             <li>Pengiriman Data</li>
