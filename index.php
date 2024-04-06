@@ -17,7 +17,7 @@
     <ol type="1">
         <li>
             <!--Hyperlink With Target New Open TAB-->
-            <a href="html_dasar/" target="_blank">HTML Dasar</a>
+            <a href="html_dasar/" target="_blank">HTML Dasar 1212121</a>
         </li>
         <li>Pembuatan FORM</li>
         <li>PHP Dasar</li>
