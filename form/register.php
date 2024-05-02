@@ -13,19 +13,19 @@
     <!--Table Section-->
     <table>
         <!--Form Section-->
-        <form action="" method="post">
+        <form action="data.php" method="post">
             <tr>
                 <td>
                     <label>Nama Lengkap</label>
-                    <input type="text" name="nama">
+                    <input type="text" name="nama" value="">
                 </td>
             </tr>
 
             <tr>
                 <td>
                     <label>Jenis Kelamin</label>
-                    <input type="radio" name="gender"> Laki-laki
-                    <input type="radio" name="gender"> Perempuan
+                    <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="gender" value="Perempuan"> Perempuan
                 </td>
             </tr>
 
@@ -33,10 +33,10 @@
                 <td>
                     <label>Kota</label>
                     <select name="kota">
-                        <option value="BDG"> Kota Bandung
-                        <option value="KB"> Kabupaten Bandung
-                        <option value="KBB"> Kabupaten Bandung Barat
-                        <option value="KC"> Kota Cimahi
+                        <option value="Kota Bandung"> Kota Bandung
+                        <option value="Kabupaten Bandung"> Kabupaten Bandung
+                        <option value="Kabupaten Bandung Barat"> Kabupaten Bandung Barat
+                        <option value="Kota CImahi"> Kota Cimahi
                     </select>
                 </td>
             </tr>
@@ -50,7 +50,7 @@
 
             <tr>
                 <td>
-                    <input type="button" value="kirim">
+                    <input type="submit" value="kirim">
                 </td>
             </tr>
         </form>
