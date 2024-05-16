@@ -14,7 +14,7 @@ if($_POST['kota']=='4'){
     echo "Kota Asal: Kota Cimahi";
 }else
 {
-    echo "Kota Asal: tidak ditemukan";
+    echo "Kota Asal: Tidak Ditemukan";
 }
 echo "<br>";
 echo "Alamat Domisili: ".$_POST['alamat']."<br>";
